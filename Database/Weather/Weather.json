@@ -1,0 +1,27 @@
+{
+    "weathers": [
+        {
+            "LocalObservationDateTime": "2023-10-06T18:18:00+07:00",
+            "EpochTime": 1696591080,
+            "WeatherText": "Cloudy",
+            "WeatherIcon": 7,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": false,
+            "Temperature": {
+                "Metric": {
+                    "Value": 25.0,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 77.0,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/vn/ho-chi-minh-city/353981/current-weather/353981?lang=en-us",
+            "Link": "http://www.accuweather.com/en/vn/ho-chi-minh-city/353981/current-weather/353981?lang=en-us"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{"currentWeather":{
+    "API_KEY": "3UYZOmul5emqbF9l8JbF8KtSHIXGYG1I",
+    "API_REQUEST": "http://dataservice.accuweather.com/currentconditions/v1/353981",
+    "PARAMS": {
+        "language": "en-us",
+        "details": "false"
+    }
+}}
