@@ -1,0 +1,24 @@
+{
+    "Locations_id": {
+        "HCMUS": "Ride to HCMUS in saved places, double tap to select",
+        "MyHouse": "Ride to MyHouse in saved places, double tap to select",
+        "MyCafe": "Ride to MyCafe in saved places, double tap to select",
+        "TSN_IAP": "Ride to TSN_IAP in saved places, double tap to select",
+        "MyHome": "Ride to MyHome in saved places, double tap to select",
+        "NgHueRoad": "Ride to NgHueRoad in saved places, double tap to select"
+    },
+    "Locations_address": {
+        "HCMUS": "227 Nguy\u1ec5n V\u0103n C\u1eeb, Ph\u01b0\u1eddng 4, Qu\u1eadn 5, TP HCM",
+        "MyHouse": "A11/13A Qu\u1ed1c L\u1ed9 50, X.B\u00ecnh H\u01b0ng, H.B\u00ecnh Ch\u00e1nh, H\u1ed3 Ch\u00ed Minh, Vietnam",
+        "MyCafe": "57 V\u00f5 Oanh, Ph\u01b0\u1eddng 25, Qu\u1eadn B\u00ecnh Th\u1ea1nh, TP. HCM",
+        "TSN_IAP": "Tr\u01b0\u1eddng S\u01a1n, Ph\u01b0\u1eddng 2, Quan T\u00e2n B\u00ecnh, TP HCM",
+        "MyHome": "A11/13A Qu\u1ed1c L\u1ed9 50, X.B\u00ecnh H\u01b0ng, H.B\u00ecnh Ch\u00e1nh, H\u1ed3 Ch\u00ed Minh, Vietnam",
+        "NgHueRoad": "22 Nguy\u1ec5n Hu\u1ec7, Ph\u01b0\u1eddng B\u1ebfn Ngh\u00e9, Qu\u1eadn 1, TP HCM"
+    },
+    "desired_capabilities": {
+        "platformName": "android",
+        "deviceName": "R58MB5EYBQM",
+        "appPackage": "com.grabtaxi.passenger",
+        "appActivity": "com.grab.pax.newface.presentation.newface.NewFace"
+    }
+}

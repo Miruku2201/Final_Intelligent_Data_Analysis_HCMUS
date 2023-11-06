@@ -21,3 +21,4 @@ class WeatherCrawler:
         path = "./Database/Weather/Weather.json"
         create(path, "weathers")
         update(crawlingCall(), "weathers", path)
+        return crawlingCall()
