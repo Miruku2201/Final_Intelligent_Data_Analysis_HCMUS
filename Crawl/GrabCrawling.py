@@ -34,7 +34,7 @@ class GrabCrawler:
             "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.TextView[2]",
         ).click()
 
-#############################################################
+        #############################################################
         ## Wait for launching authorities
         self.driver.implicitly_wait(20)
 
@@ -48,7 +48,7 @@ class GrabCrawler:
         #     "xpath",
         #     '//android.widget.LinearLayout[@content-desc="0329 601 106"]/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.TextView',
         # ).click()
-#################################################################
+        #################################################################
         self.driver.implicitly_wait(20)
 
         # self.driver.find_element(
@@ -88,11 +88,11 @@ class GrabCrawler:
 
         ## Get "departure" text
         departure_text = self.driver.find_element(
-            "id", "com.grabtaxi.passenger:id/poi_item_title"
+            "id", "com.grabtaxi.passenger:id/bottom_wheel_item_info_title"
         ).text
-        departure_address = self.driver.find_element(
-            "id", "com.grabtaxi.passenger:id/poi_item_distance"
-        ).text
+        # departure_address = self.driver.find_element(
+        #     MobileBy.ACCESSIBILITY_ID, "com.grabtaxi.passenger:id/bottom_wheel_item_info_detail"
+        # ).text
 
         print("OKE")
         # self.driver.find_element(AppiumBy.ID, "com.grabtaxi.passenger:id/btn_confirm").click()
@@ -124,7 +124,8 @@ class GrabCrawler:
 
         grab_data = {
             "departureText": departure_text,
-            "departureAddress": departure_address,
+            # "departureAddress": departure_address,
+            "departureAddress": GrabCrawler.location_address[departure_text],
             "destinationText": destination,
             "destinationAddress": GrabCrawler.location_address[destination],
             "byVehicle": byVehicle,

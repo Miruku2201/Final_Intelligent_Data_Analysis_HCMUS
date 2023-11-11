@@ -1,0 +1,7 @@
+PWD d:\Coding\HCMUS\UD IDA\Final Project\report\content
+INPUT C:\Users\Nam\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Coding\HCMUS\UD IDA\Final Project\report\content\title.tex
+OUTPUT title.log
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm

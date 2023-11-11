@@ -1,0 +1,15 @@
+PWD d:\Coding\HCMUS\UD IDA\Final Project\report\content
+INPUT C:\Users\Nam\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT d:\Coding\HCMUS\UD IDA\Final Project\report\content\section_intro.tex
+OUTPUT section_intro.log
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\section_intro.aux
+INPUT .\section_intro.aux
+INPUT section_intro.aux
+OUTPUT section_intro.aux
+OUTPUT section_intro.pdf
+INPUT C:\Users\Nam\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT section_intro.aux
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Nam\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

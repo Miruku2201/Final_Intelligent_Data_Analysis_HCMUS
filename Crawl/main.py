@@ -11,6 +11,9 @@ from Jsonfile import update, create
 ###################################################
 # Define Destination
 dest = "TSN_IAP"
+# dest = "MyCafe"
+# dest = "NgHueRoad"
+# dest = "HCMUS"
 
 
 ###################################################
